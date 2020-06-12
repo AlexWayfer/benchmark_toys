@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'toys-core'
+
 module BenchmarkToys
 	## Define toys for benchmark
 	class Template
