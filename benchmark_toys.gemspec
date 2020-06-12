@@ -1,0 +1,44 @@
+# frozen_string_literal: true
+
+require_relative 'lib/benchmark_toys/version'
+
+Gem::Specification.new do |spec|
+	spec.name          = 'benchmark_toys'
+	spec.version       = BenchmarkToys::VERSION
+	spec.authors       = ['Alexander Popov']
+	spec.email         = ['alex.wayfer@gmail.com']
+
+	spec.summary       = 'Toys template for benchmarks.'
+	spec.description   = <<~DESC
+		Toys template for benchmarks.
+	DESC
+	spec.license = 'MIT'
+
+	spec.required_ruby_version = '>= 2.5'
+
+	source_code_uri = 'https://github.com/AlexWayfer/benchmark_toys'
+
+	spec.homepage = source_code_uri
+
+	spec.metadata['source_code_uri'] = source_code_uri
+
+	spec.metadata['homepage_uri'] = spec.homepage
+
+	spec.metadata['changelog_uri'] =
+		'https://github.com/AlexWayfer/benchmark_toys/blob/master/CHANGELOG.md'
+
+	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
+
+	spec.add_runtime_dependency 'benchmark-ips', '~> 2.8'
+	spec.add_runtime_dependency 'benchmark-memory', '~> 0.1.0'
+	spec.add_runtime_dependency 'example_file', '~> 0.1.0'
+
+	spec.add_development_dependency 'codecov', '~> 0.1.0'
+	spec.add_development_dependency 'pry-byebug', '~> 3.9'
+	spec.add_development_dependency 'rake', '~> 13.0'
+	spec.add_development_dependency 'rspec', '~> 3.9'
+	spec.add_development_dependency 'rubocop', '~> 0.85.0'
+	spec.add_development_dependency 'rubocop-performance', '~> 1.0'
+	spec.add_development_dependency 'rubocop-rspec', '~> 1.0'
+	spec.add_development_dependency 'simplecov', '~> 0.18.0'
+end
