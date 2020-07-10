@@ -7,36 +7,26 @@ Layout/IndentationStyle:
   IndentationWidth: 2
 Layout/IndentationWidth:
   Width: 1
+Layout/LineLength:
+  Max: 100
 Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: true
-
-Lint/RaiseException:
-  Enabled: true
-Lint/StructNewOverride:
-  Enabled: true
-Lint/DeprecatedOpenSSLConstant:
-  Enabled: true
-Lint/MixedRegexpCaptureTypes:
-  Enabled: true
-
-Style/HashEachMethods:
-  Enabled: true
-Style/HashTransformKeys:
-  Enabled: true
-Style/HashTransformValues:
-  Enabled: true
-Style/ExponentialNotation:
-  Enabled: true
-Style/SlicingWithRange:
-  Enabled: true
-Style/RedundantRegexpCharacterClass:
-  Enabled: true
-Style/RedundantRegexpEscape:
-  Enabled: true
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/FirstArgumentIndentation:
+  EnforcedStyle: consistent
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
 
 Metrics/BlockLength:
   Exclude:
@@ -45,6 +35,7 @@ Metrics/BlockLength:
 
 AllCops:
   TargetRubyVersion: 2.5
+  NewCops: enable
 
 RSpec/NestedGroups:
   Max: 4
