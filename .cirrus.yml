@@ -30,7 +30,7 @@ rubocop_task:
   container:
     image: ruby:latest
   <<: *bundle_cache
-  lint_script: toys rubocop
+  lint_script: bundle exec rubocop
   only_if: ($CIRRUS_BRANCH == 'master') ||
     changesInclude(
       '.cirrus.yml', '.gitignore', 'Gemfile', 'Rakefile', '.rubocop.yml', '*.gemspec',
@@ -49,7 +49,7 @@ rspec_task:
   <<: *bundle_cache
   environment:
     CODECOV_TOKEN: ENCRYPTED[8e6980349efde84bcc49f2d2a5382a6ca915ea04e0805c15d9e95a163e4b4da740915e563fb45282a52a5e590b569962]
-  test_script: toys rspec
+  test_script: bundle exec rspec
   only_if: ($CIRRUS_BRANCH == 'master') ||
     changesInclude(
       '.cirrus.yml', '.gitignore', 'Gemfile', 'Rakefile', '.rspec', '*.gemspec', 'lib/**',
