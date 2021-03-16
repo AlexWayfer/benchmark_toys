@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 	DESC
 	spec.license = 'MIT'
 
-	spec.required_ruby_version = '>= 2.5'
+	spec.required_ruby_version = '>= 2.5', '< 4'
 
 	source_code_uri = 'https://github.com/AlexWayfer/benchmark_toys'
 
