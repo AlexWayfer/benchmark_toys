@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 0.3.1 (2021-08-09)
+
 ## 0.3.0 (2020-09-30)
 
 *   Update dependencies.
