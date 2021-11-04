@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
 	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
 
 	spec.add_runtime_dependency 'benchmark-ips', '~> 2.8'
-	spec.add_runtime_dependency 'benchmark-memory', '~> 0.1.0'
+	spec.add_runtime_dependency 'benchmark-memory', '~> 0.2.0'
 	spec.add_runtime_dependency 'example_file', '~> 0.3.1'
 	spec.add_runtime_dependency 'toys-core', '~> 0.12.0'
 
