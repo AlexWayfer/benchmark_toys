@@ -14,22 +14,23 @@ Gem::Specification.new do |spec|
 	DESC
 	spec.license = 'MIT'
 
-	spec.required_ruby_version = '>= 2.6', '< 4'
+	github_uri = "https://github.com/AlexWayfer/#{spec.name}"
 
-	source_code_uri = 'https://github.com/AlexWayfer/benchmark_toys'
+	spec.homepage = github_uri
 
-	spec.homepage = source_code_uri
-
-	spec.metadata['source_code_uri'] = source_code_uri
-
-	spec.metadata['homepage_uri'] = spec.homepage
-
-	spec.metadata['changelog_uri'] =
-		'https://github.com/AlexWayfer/benchmark_toys/blob/main/CHANGELOG.md'
-
-	spec.metadata['rubygems_mfa_required'] = 'true'
+	spec.metadata = {
+		'bug_tracker_uri' => "#{github_uri}/issues",
+		'changelog_uri' => "#{github_uri}/blob/v#{spec.version}/CHANGELOG.md",
+		'documentation_uri' => "http://www.rubydoc.info/gems/#{spec.name}/#{spec.version}",
+		'homepage_uri' => spec.homepage,
+		'rubygems_mfa_required' => 'true',
+		'source_code_uri' => github_uri,
+		'wiki_uri' => "#{github_uri}/wiki"
+	}
 
 	spec.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt', 'CHANGELOG.md']
+
+	spec.required_ruby_version = '>= 2.6', '< 4'
 
 	spec.add_runtime_dependency 'benchmark-ips', '~> 2.8'
 	spec.add_runtime_dependency 'benchmark-memory', '~> 0.2.0'
