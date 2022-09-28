@@ -5,8 +5,8 @@
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/benchmark_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/benchmark_toys)
 [![Depfu](https://img.shields.io/depfu/AlexWayfer/benchmark_toys?style=flat-square)](https://depfu.com/repos/github/AlexWayfer/benchmark_toys)
 [![Inline docs](https://inch-ci.org/github/AlexWayfer/benchmark_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/benchmark_toys)
-[![license](https://img.shields.io/github/license/AlexWayfer/benchmark_toys.svg?style=flat-square)](https://github.com/AlexWayfer/benchmark_toys/blob/main/LICENSE.txt)
 [![Gem](https://img.shields.io/gem/v/benchmark_toys.svg?style=flat-square)](https://rubygems.org/gems/benchmark_toys)
+[![License](https://img.shields.io/github/license/AlexWayfer/benchmark_toys.svg?style=flat-square)](LICENSE.txt)
 
 Toys template for benchmarks.
 
