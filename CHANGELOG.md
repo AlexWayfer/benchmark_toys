@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 0.6.0 (2022-10-22)
+
+*   Update `toys`.
+*   Update `rubocop`.
+
 ## 0.5.1 (2022-09-29)
 
 *   Update dependencies.
