@@ -35,5 +35,5 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'benchmark-ips', '~> 2.8'
 	spec.add_dependency 'benchmark-memory', '~> 0.2.0'
 	spec.add_dependency 'example_file', '~> 0.5.0'
-	spec.add_dependency 'toys-core', '~> 0.15.3'
+	spec.add_dependency 'toys-core', '~> 0.16.0'
 end
