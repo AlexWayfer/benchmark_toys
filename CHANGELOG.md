@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.1.0 (2026-08-10)
+
+*   Update dependencies.
+*   Replace Cirrus CI with GitHub Actions.
+
 ## 1.0.0 (2026-02-15)
 
 *   Drop Ruby 3.0 and 3.1 support.
