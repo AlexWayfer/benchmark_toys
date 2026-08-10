@@ -1,6 +1,6 @@
 # Benchmark Toys
 
-[![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/AlexWayfer/benchmark_toys?style=flat-square)](https://cirrus-ci.com/github/AlexWayfer/benchmark_toys)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/AlexWayfer/benchmark_toys/ci.yml?style=flat-square)](https://github.com/AlexWayfer/benchmark_toys/actions)
 [![Codecov branch](https://img.shields.io/codecov/c/github/AlexWayfer/benchmark_toys/main.svg?style=flat-square)](https://codecov.io/gh/AlexWayfer/benchmark_toys)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/AlexWayfer/benchmark_toys.svg?style=flat-square)](https://codeclimate.com/github/AlexWayfer/benchmark_toys)
 [![Inline docs](https://inch-ci.org/github/AlexWayfer/benchmark_toys.svg?branch=main)](https://inch-ci.org/github/AlexWayfer/benchmark_toys)
